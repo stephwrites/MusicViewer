@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <AlbumName>If You're Reading This It's Too Late</AlbumName>
+    <ArtistName>Drake</ArtistName>
+    <AlbumCoverPath>/MusicViewer;component/Images/ifyourereadingthisitstoolate.jpg</AlbumCoverPath>
+  </Album>
+  <Album>
+    <AlbumName>Picaresque</AlbumName>
+    <ArtistName>The Decemberists</ArtistName>
+    <AlbumCoverPath>/MusicViewer;component/Images/picaresque.jpg</AlbumCoverPath>
+  </Album>
+  <Album>
+    <AlbumName>In Evening Air</AlbumName>
+    <ArtistName>Future Islands</ArtistName>
+    <AlbumCoverPath>/MusicViewer;component/Images/ineveningair.jpg</AlbumCoverPath>
+  </Album>
+  <Album>
+    <AlbumName>You're Gonna Miss It All</AlbumName>
+    <ArtistName>Modern Baseball</ArtistName>
+    <AlbumCoverPath>/MusicViewer;component/Images/youregonnamissitall.jpg</AlbumCoverPath>
+  </Album>
+  <Album>
+    <AlbumName>asdf</AlbumName>
+    <ArtistName>asdf</ArtistName>
+    <AlbumCoverPath>C:\Users\stephaniea\Desktop\thriller.png</AlbumCoverPath>
+  </Album>
+</ArrayOfAlbum>

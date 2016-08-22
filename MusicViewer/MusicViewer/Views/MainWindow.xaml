@@ -1,0 +1,34 @@
+﻿<Window 
+        x:Class="MusicViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MusicViewer.ViewModels"
+        Title="Simple Music Viewer v1.0" Height="215" Width="302"
+        ResizeMode="CanMinimize" >
+    <Window.DataContext>
+        <local:MainWindowViewModel />
+    </Window.DataContext>
+    <Grid Name="MainMenu">
+        <StackPanel>
+            <TextBlock Margin="10"
+                       HorizontalAlignment="Center"
+                       FontSize="20"
+                       Text="Main Menu" />
+            <TextBlock Margin="10"
+                       HorizontalAlignment="Center"
+                       Text="♪ let's view some music! ♪" />
+            <Button Name="AddWindowBtn"
+                    Width="120"
+                    Margin="10"
+                    HorizontalAlignment="Center"
+                    Content="Add to Collection" 
+                    Command="{Binding OpenAddCommand}"/>
+            <Button Name="ViewWindowBtn"
+                    Width="120"
+                    Margin="10"
+                    HorizontalAlignment="Center"
+                    Content="View Collection"
+                    Command="{Binding OpenViewCommand}"/>
+        </StackPanel>
+    </Grid>
+</Window>
